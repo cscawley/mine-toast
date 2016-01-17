@@ -1,0 +1,11 @@
+{
+  "name": "minetoast",
+  "version": "1.0.0",
+  "description": "der minetoastin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "carrucan",
+  "license": "Beerware"
+}
