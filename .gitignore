@@ -1,0 +1,4 @@
+# redundant global ignore paths
+#
+*~
+.DS_Store
