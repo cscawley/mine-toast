@@ -62,10 +62,18 @@
  a.icon-jar {
    font-size: 2em;
    text-decoration: none;
+   color: #795548 !important;
+ }
+ a.icon-jar:hover {
+   color: #cc2c21 !important;
  }
  a.icon-jars{
    font-size: 2em;
    text-decoration: none;
+   color: #795548 !important;
+ }
+ a.icon-jars:hover{
+   color: #cc2c21 !important;
  }
  i.icon-github {
    font-size: 2em;
@@ -103,8 +111,25 @@ p {
 .button-collapse {
   color: #26a69a;
 }
+.mine-toast-section {
+
+}
+.mine-toast-logo {
+  display: block !important;
+  text-indent: -9999px;
+  width: 91px;
+  height: 65px;
+  background: url(../img/minetoast.svg);
+  margin-left: auto;
+  margin-right: auto;
+}
 .forge {
-  background-color:  rgb(222, 166, 93);
+  background-color:  #dcb88e;
+  border-radius: 2px 0 !important;
+  border-bottom: 3px solid #cc2c21 !important;
+}
+.forge:hover {
+  background-color:  #9d7a55;
   border-radius: 2px 0 !important;
   border-bottom: 3px solid #cc2c21 !important;
 }
@@ -112,7 +137,6 @@ p {
   color: rgb(245, 206, 144);
   text-shadow: 2px 2px 8px #383636;
 }
-
 .jam {
   text-shadow:  1px 1px 6px #383633;
 }
